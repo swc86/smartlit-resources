@@ -74,7 +74,21 @@ module.exports = {
         'yySmg.name': 'smg',
         'yySmg.description': 'smg',
         'yySpeech.name': 'speech',
-        'yySpeech.description': 'speech'
+        'yySpeech.description': 'speech',
+        'io.name': 'io interface',
+        'io.description': 'There ara General IO functions.',
+        'doubleRelay.name': 'doubleRelay',
+        'doubleRelay.description': 'Two way relay module, 5V low trigger.',
+        'oneRelay.name': 'oneRelay',
+        'oneRelay.description': 'One way relay module, 5V low trigger.',
+        'redLED.name': 'red LED',
+        'redLED.description': 'The red LED module can be controlled by IO port, and the brightness can also be controlled by PWM.',
+        'yellowLED.name': 'yellow LED',
+        'yellowLED.description': 'The yellow LED module can be controlled by IO port, and the brightness can also be controlled by PWM.',
+        'greenLED.name': 'red LED',
+        'greenLED.description': 'The green LED module can be controlled by IO port, and the brightness can also be controlled by PWM.',
+        'TriColorLED.name': 'TriColor LED',
+        'TriColorLED.description': '5mm RGB TriColor LED.'
     },
     'zh-cn': {
         'chineseTTS.name': '中文 TTS',
@@ -148,6 +162,20 @@ module.exports = {
         'yySmg.name': '数码管',
         'yySmg.description': '数码管',
         'yySpeech.name': '语音',
-        'yySpeech.description': '语音'
+        'yySpeech.description': '语音',
+        'io.name': 'io接口',
+        'io.description': '这是通用IO接口函数',
+        'doubleRelay.name': '双继电器模块',
+        'doubleRelay.description': '双路继电器模块,5V低电平触发。',
+        'oneRelay.name': '单路继电器模块',
+        'oneRelay.description': '单路继电器模块,5V低电平触发。',
+        'redLED.name': '红色LED灯模块',
+        'redLED.description': '红色LED灯模块，可通过IO口控制亮灭，也可以通过PWM控制亮度。',
+        'yellowLED.name': '黄色LED灯模块',
+        'yellowLED.description': '黄色LED灯模块，可通过IO口控制亮灭，也可以通过PWM控制亮度。',
+        'greenLED.name': '绿色LED灯模块',
+        'greenLED.description': '绿色LED灯模块，可通过IO口控制亮灭，也可以通过PWM控制亮度。',
+        'TriColorLED.name': '三色灯模块',
+        'TriColorLED.description': '5mm RGB 三色灯模块。'
     }
 };
