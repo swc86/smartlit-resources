@@ -94,7 +94,9 @@ module.exports = {
         'greenLED.name': 'red LED',
         'greenLED.description': 'The green LED module can be controlled by IO port, and the brightness can also be controlled by PWM.',
         'TriColorLED.name': 'TriColor LED',
-        'TriColorLED.description': '5mm RGB TriColor LED.'
+        'TriColorLED.description': '5mm RGB TriColor LED.',
+        'stepperMotor.name': 'stepper motor',
+        'stepperMotor.description': '28byj-48, a four phase eight beat permanent magnet deceleration stepping motor with an outer diameter of 28mm.'
     },
     'zh-cn': {
         'chineseTTS.name': '中文 TTS',
@@ -188,6 +190,8 @@ module.exports = {
         'greenLED.name': '绿色LED灯模块',
         'greenLED.description': '绿色LED灯模块，可通过IO口控制亮灭，也可以通过PWM控制亮度。',
         'TriColorLED.name': '三色灯模块',
-        'TriColorLED.description': '5mm RGB 三色灯模块。'
+        'TriColorLED.description': '5mm RGB 三色灯模块。',
+        'stepperMotor.name': '步进电机',
+        'stepperMotor.description': '28BYJ-48，一款外径28毫米的四相八拍式永磁减速型步进电机。'
     }
 };
